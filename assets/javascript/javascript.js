@@ -3,7 +3,7 @@ var reactions = ["shocked", "excited clap", "LOL", "eye roll", "facepalm", "hair
 function displayGifs() {
 
     var reactionSearch = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + reactionSearch + "&api_key=R8AY7mEPQ7sRyYivjsCPzkPTN9bsazii&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + reactionSearch + "&api_key=R8AY7mEPQ7sRyYivjsCPzkPTN9bsazii&limit=10";
 
     $("#gifs").empty();
 

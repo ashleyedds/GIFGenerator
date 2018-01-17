@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("imgs/curls.png")
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background: url("imgs/gradient.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    float: left;
+    margin-left: 10%;
+    font-family: 'Scada', sans-serif;
+}
+
+.giphy {
+    margin-left: 5%;
+}
+
+/* PANELS */
+
+.panel {
+    background: url("imgs/gradient.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.panel .panel-heading {
+    background-color: rgb(29, 131, 156);
+}
+
+.panel-title {
+    font-family: 'Scada', sans-serif;
+    font-size: 25px;
+}
+
+/* ADD A REACTION */
+#reaction-input {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+h4 {
+    font-family: 'Scada', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+/* BUTTONS */
+button, #select-reaction {
+    background-color:rgb(117, 55, 141);
+    font-family: 'Scada', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 5px;
+}
+
+#select-reaction {
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+/* GIFS */
+.reactionGifs {
+    margin: 10px;
+}
+
+.reactionGifs:hover {
+    cursor: pointer;
+}

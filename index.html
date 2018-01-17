@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reaction GIF Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Scada" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div class="jumbotron">
+                    <h1>Reaction GIF Generator</h1>
+                    <img class="giphy" src="assets/images/giphybadge.gif">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Button Ranch -->
+        <div class="row">
+
+            <div class="col-xs-12">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Reactions (click here to see the GIFS!)</h3>
+                    </div>
+                    <div class="panel-body" id="btns">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Gif Ranch -->
+        <div class="row">
+
+            <div class="col-xs-8">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Top Gifs</h3>
+                    </div>
+                    <div class="panel-body" id="gifs">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-4">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <form>
+                            <div class= "panel-title" for="reaction-input">Add a reaction</div>
+                    </div>
+                    <input type="text" id="reaction-input">
+                    <br>
+                    <input id="select-reaction" type="submit" value="Submit">
+                    </form>
+                    <h4>Click a GIF to see it in action. Click again to un-giphy it.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+
+    </div>
+</body>
+
+</html>

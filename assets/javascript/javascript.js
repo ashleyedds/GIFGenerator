@@ -15,6 +15,11 @@ function displayGifs() {
 
             console.log(response);
 
+            var gifDiv = $("<div class='gif-info'>");
+
+            var rating = response.data[i].rating;
+            var pRating = $("<p class='rating'>").text("Rating: " + rating);
+
             var stillURL = response.data[i].images.fixed_height_still.url;
 
             var image = $("<img>").attr("src", stillURL);
@@ -24,7 +29,8 @@ function displayGifs() {
             image.attr("animate-url", response.data[i].images.fixed_height.url);
             image.attr("still-url", response.data[i].images.fixed_height_still.url);
 
-            $("#gifs").append(image);
+            gifDiv.append(pRating, image);
+            $("#gifs").append(gifDiv);
 
         }
 

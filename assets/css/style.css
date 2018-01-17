@@ -76,10 +76,24 @@ button, #select-reaction {
 }
 
 /* GIFS */
+
 .reactionGifs {
-    margin: 10px;
+    margin: 5px;
+    float: left;
 }
 
 .reactionGifs:hover {
     cursor: pointer;
+}
+
+.rating {
+    font-family: 'Scada', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.gif-info {
+    height: 250px;
+    float: left;
 }

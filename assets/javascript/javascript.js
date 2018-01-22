@@ -34,7 +34,7 @@ function displayGifs() {
 
         }
 
-        $(".reactionGifs").on("click", function() {
+        $(".reactionGifs").on("click touchstart", function() {
             var state = $(this).attr("data-state");
             for (var i = 0; i < response.data.length; i++) {
                 if (state === "still") {

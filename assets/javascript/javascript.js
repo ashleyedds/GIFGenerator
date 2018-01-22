@@ -64,7 +64,7 @@ function renderButtons() {
     }
 }
 
-$("#select-reaction").on("click", function (event) {
+$("#select-reaction").on("click touchstart", function (event) {
     event.preventDefault();
     var reaction = $("#reaction-input").val().trim();
     reactions.push(reaction);
